@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(83, 54, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 48px;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(150, 99, 41);
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+main{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    text-align: right;
+    background-color: rgb(150, 99, 41);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+footer p{
+
+    margin: 20px;
+}
+img{
+    width: 30%;
+  
+}
+.oferta{
+    width: 10%;
+    height: 5.5vh;
+    background-color: bisque;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 4px dotted  rgb(83, 54, 9);
+    position: relative;
+}
+
+iframe{
+    opacity: 0;
+    position: absolute;
+    top:160%;
+    left: 0%;
+    background-color: white;
+    border: 5px solid rgb(122, 80, 25);
+    transition:opacity 0.5s;
+}
+
+.oferta:hover iframe{
+    opacity:1;
+}
