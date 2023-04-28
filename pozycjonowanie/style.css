@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+}
+.kontener{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.strona1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+
+}
+.lewy{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    
+}
+.prawy{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.strona2{
+    
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+}
+.RL{
+    background-color: red;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float:left;
+}
+.BP{
+    background-color: black;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float:right;
+}
+.BL{
+    clear: both;
+    background-color: black;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float:left;
+}
+.RP{
+    background-color: red;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float:right;
+}
+.strona3{
+    
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.layer1{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.layer2{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.layer3{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.l1l{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.l1p{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.srodek{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.l3l{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+.l3p{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.strona4{
+    
+    margin-top: 20px;
+    width: 500px;
+    height: 400px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kw1{
+    width:400px;
+    height:300px;
+    background-color: darkcyan;
+    
+}
+hr {
+	width:100%;
+	margin:50px;
+}
+.kw2{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: orange;
+}
+.strona5{
+    
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kolo1{
+    position: absolute;
+    width: 100px;
+    height:100px;
+    border-radius: 100%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    
+    background-color:rgb(163, 186, 201);
+    z-index: 3;
+}
+.kolo2{
+    position: absolute;
+    width: 100px;
+    height:100px;
+    border-radius: 100%;
+    
+    background-color:red;
+    z-index: 2;
+}
+.kolo3{
+    position: absolute;
+    width: 100px;
+    height:100px;
+    border-radius: 100%;
+    margin-right: -50px;
+    margin-bottom: -50px;
+    
+    background-color:pink;
+    z-index: 1;
+}
