@@ -1,0 +1,68 @@
+#as 
+{
+position: absolute;
+left: 41%;
+top: 400px; 
+z-index: 1;
+
+transition: 0.3s;
+}
+#krol
+{
+position: absolute;
+left: 45.5%;
+top: 400px; 
+z-index: 2;
+
+transition: 0.3s;
+}
+#dama 
+{
+position: absolute;
+left: 50%;
+top: 400px; 
+z-index: 3;
+transition: 0.3s;
+}
+#walet 
+{
+position: absolute;
+left: 55.5%;
+top: 400px; 
+z-index: 4;
+
+transition: 0.2s;
+}
+#rew {
+position: absolute;
+left: 60%;
+top: 400px; 
+z-index: 5;
+
+transition: 0.3s;
+}
+#as:active{
+    z-index: 10;
+    top: 200px;
+    transition:0.3;
+}
+#krol:active{
+    z-index: 10;
+    top: 200px;
+    transition:0.3;
+}
+#dama:active{
+    z-index: 10;
+    top: 200px;
+    transition:0.3;
+}
+#walet:active{
+    z-index: 10;
+    top: 200px;
+    transition:0.3;
+}
+#rew:active{
+    z-index: 10;
+    top: 500px;
+    transition:0.3;
+}
