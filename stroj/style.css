@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header{
+    width: 100vw;
+    background-color: black;
+    color: azure;
+    text-align: center;
+    height: 10vh;
+    font-size: 3em;
+}
+#napis {
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    height: 5vh;
+    font-size: xx-large;
+    background-color: aqua;
+}
+
+#imgg {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    width:100vw ;
+    background-color: blueviolet;
+   
+}
+img {
+    width: 50%;
+    height: 100%;
+    
+}
+#imggg {
+    border-right: dashed;
+}
+#imgggg {
+    border-left: dashed;
+}
+footer {
+    height: 5vh;
+    border-top:dotted ;
+    background-color: chartreuse;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor:none;
+}
